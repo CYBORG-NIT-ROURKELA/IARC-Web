@@ -18,13 +18,13 @@
 <body>
 
   <!-- navigation -->
-  <div class="navigation-wrap bg-light start-header start-style">
+  <div class="navigation-wrap bg-light start-header start-style animatable fadeInDown">
     <div class="container">
       <div class="row">
         <div class="col-12">
           <nav class="navbar navbar-expand-md navbar-light">
 
-            <a class="navbar-brand" href="index.html"><img src="assets/images/logo1.png" alt=""></a>
+            <a class="navbar-brand grow" href="index.html"><img src="assets/images/logo1.png" alt=""></a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -75,8 +75,10 @@
 
   <section id="iarc">
     <br><br>
-    <h1 class="iarc-head">About</h1>
-    <div class="row container iarc-section">
+    <div class="animatable bounceIn">
+      <h1 class="iarc-head wobble-vertical">About</h1>
+    </div>
+    <div class="row container iarc-section animatable bounceInLeft">
       <div class="col-md-12">
         <div class="iarc-card">
           <div class="row">
@@ -93,7 +95,7 @@
         </div>
       </div>
     </div>
-    <div class="row container iarc-section">
+    <div class="row container iarc-section animatable bounceInRight">
       <div class="col-md-12">
         <div class="iarc-card">
           <div class="row">
@@ -124,18 +126,20 @@
   <!-- subsystems section -->
   <section id="subsystems" class="subsystems-class">
     <br><br>
-    <h1 class="sc-head">Our Subsystems</h1>
+    <div class="animatable bounceIn">
+      <h1 class="sc-head wobble-vertical">Our Subsystems</h1>
+    </div>
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
-          <div class="sc-card">
+        <div class="col-md-6 animatable bounceInLeft">
+          <div class="sc-card grow">
             <img src="assets/images/software.jpeg" alt="">
             <h1>Software</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
         </div>
-        <div class="col-md-6">
-          <div class="sc-card">
+        <div class="col-md-6 animatable bounceInRight">
+          <div class="sc-card grow">
             <img src="assets/images/mechanical.jpg" alt="">
             <h1>Mechanical</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -143,15 +147,15 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-6">
-          <div class="sc-card">
+        <div class="col-md-6 animatable bounceInLeft">
+          <div class="sc-card grow">
             <img src="assets/images/electronics.jpg" alt="">
             <h1>Electronics</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
         </div>
-        <div class="col-md-6">
-          <div class="sc-card">
+        <div class="col-md-6 animatable bounceInRight">
+          <div class="sc-card grow">
             <img src="assets/images/web.jpg" alt="">
             <h1>Web Development</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -169,10 +173,12 @@
 
   <section id="team" class="team-section">
     <br><br>
-    <h1 class="ts-head">Our Team</h1>
+    <div class="animatable bounceIn">
+      <h1 class="ts-head wobble-vertical">Our Team</h1>
+    </div>
     <div class="row">
-      <div class="col-md-4" style="text-align:center;margin-left:auto;margin-right:auto;">
-        <div class="card profile-card-3">
+      <div class="col-md-4 animatable bounceInLeft" style="text-align:center;margin-left:auto;margin-right:auto;">
+        <div class="card profile-card-3 hover">
           <div class="background-block">
             <img src="https://images.pexels.com/photos/459225/pexels-photo-459225.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="profile-sample1" class="background" />
           </div>
@@ -185,8 +191,8 @@
           </div>
         </div>
       </div>
-      <div class="col-md-4" style="text-align:center;margin-left:auto;margin-right:auto;">
-        <div class="card profile-card-3">
+      <div class="col-md-4 animatable bounceIn" style="text-align:center;margin-left:auto;margin-right:auto;">
+        <div class="card profile-card-3 hover">
           <div class="background-block">
             <img src="https://images.pexels.com/photos/459225/pexels-photo-459225.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="profile-sample1" class="background" />
           </div>
@@ -199,8 +205,8 @@
           </div>
         </div>
       </div>
-      <div class="col-md-4" style="text-align:center;margin-left:auto;margin-right:auto;">
-        <div class="card profile-card-3">
+      <div class="col-md-4 animatable bounceInRight" style="text-align:center;margin-left:auto;margin-right:auto;">
+        <div class="card profile-card-3 hover">
           <div class="background-block">
             <img src="https://images.pexels.com/photos/459225/pexels-photo-459225.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="profile-sample1" class="background" />
           </div>
@@ -214,7 +220,7 @@
         </div>
       </div>
     </div>
-    <div style="text-align: center;margin: 30px auto;">
+    <div class=" animatable bounceIn" style="text-align: center;margin: 30px auto;">
       <a href="views/team.html" class="btn btn-1" style="color:white;">
         <svg>
           <rect x="0" y="0" fill="none" width="100%" height="100%" />
@@ -232,7 +238,7 @@
     <br><br>
     <!-- <h1 class="cs-head">Contact Us</h1> -->
     <div class="row">
-      <div class="col-md-4 cs-left">
+      <div class="col-md-4 cs-left animatable bounceInLeft">
         <h1>ADDRESS</h1>
         <p>SAC, NIT Rourkela. Pin-769008</p>
         <h1>EMAIL</h1>
@@ -240,7 +246,7 @@
         <h1>PHONE</h1>
         <p><a href="tel:+919778756623">+91 97787 56623</a></p>
       </div>
-      <div class="col-md-8 cs-right">
+      <div class="col-md-8 cs-right animatable bounceInRight">
         <form class="cf">
           <div class="half left cf">
             <input type="text" id="input-name" placeholder="Name">
@@ -254,19 +260,19 @@
         </form>
       </div>
     </div>
-    <br><br>
+    <br><br><br>
     <div class="row">
-      <div class="col-md-4 cs-logo">
+      <div class="col-md-4 cs-logo animatable bounceInLeft">
         <img src="assets/images/logo.png" alt="">
       </div>
-      <div class="col-md-4 cs-logo">
+      <div class="col-md-4 cs-logo animatable bounceIn">
         <h1>Cyborg</h1>
         <p>Club under Technical Society</p>
         <p>SAC, NIT Rourkela</p>
         <p>EC 440, EC building, NIT Rourkela</p>
         <p>PIN- 769008</p>
       </div>
-      <div class="col-md-4 cs-logo">
+      <div class="col-md-4 cs-logo animatable bounceInRight">
         <h1>Follow us on: </h1>
         <ul class="social-icons">
           <li><a href="#"><i class="fa fa-github"></i></a></li>
@@ -277,6 +283,7 @@
         </ul>
       </div>
     </div>
+    <br>
     <div class="cs-copy">
       <p>Copyright © 2021 Cyborg</p>
       <p>National Institute of Technology, Rourkela</p>
