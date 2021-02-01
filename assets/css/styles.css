@@ -261,13 +261,13 @@ div#slider figure {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .is-right img {
   width: 100%;
-  height: 100%;
+  height: 200px;
 }
 
 .is-left h1 {
@@ -281,6 +281,8 @@ div#slider figure {
   font-size: 1rem;
   margin: 10px 10px;
   margin-left: 15px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 /* subsystems-section */
@@ -1002,15 +1004,22 @@ form textarea {
     align-items: center;
     font-size: 1px;
   }
-
+  .ui-group .button{
+    padding: 5px 5px;
+  }
   .ui-group .button-group {
     display: inline-block;
     /* margin-right: 5px; */
   }
 
   .cs-logo img {
-    width: 85%;
-    height: 65%;
+    width: 80%;
+    height: 85%;
+  }
+
+  .is-right{
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 }
 
