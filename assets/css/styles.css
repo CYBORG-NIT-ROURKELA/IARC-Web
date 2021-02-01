@@ -650,13 +650,32 @@ form textarea {
 
 .cs-logo {
   text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 
 .cs-logo img {
-  width: 85%;
+  width: 60%;
   height: 45%;
-  margin-top: 40px;
+}
+.cs-logo p{
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: black;
+}
+.cs-logo h1{
+  font-size: 1.5rem;
+  font-weight: 500;
   margin-bottom: 20px;
+  color: black;
+}
+.cs-copy{
+  text-align: center;
+}
+.cs-copy p{
+  font-size: 0.8rem;
+  margin-bottom: 5px;
+  color: #4d4e4f;
 }
 
 .social-icons {
@@ -776,8 +795,8 @@ form textarea {
 .button-group .button {
   float: left;
   border-radius: 0;
-  margin-left: 0;
-  margin-right: 1px;
+  /* margin-left: 0;
+  margin-right: 1px; */
 }
 
 .button-group .button:first-child {
@@ -986,5 +1005,27 @@ form textarea {
   .profile-card-3 {
     margin-left: 20px;
     margin-right: 20px;
+  }
+
+
+  /* team page */
+  .ui-group {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    align-items: center;
+    font-size: 1px;
+  }
+
+  .ui-group .button-group {
+    display: inline-block;
+    /* margin-right: 5px; */
+  }
+
+  .cs-logo img {
+    width: 85%;
+    height: 65%;
   }
 }
